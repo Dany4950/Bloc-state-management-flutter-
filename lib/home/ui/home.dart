@@ -31,8 +31,10 @@ class _HomeUiState extends State<HomeUi> {
       },
       builder: (context, state) {
         return Scaffold(
+          drawer: Drawer(),
           backgroundColor: Colors.grey[100],
           appBar: AppBar(
+            
             centerTitle: true,
             elevation: 20,
             shadowColor: Colors.black87,
